@@ -1,0 +1,55 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+h1 {
+  color: #2c3e50;
+}
+ 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  vertical-align: top;
+  border: 1px solid black;
+}
+
+th:first-child, td:first-child {
+   width: 110px;
+}
+
+img.product-photo {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 6px;
+}
+
+.narrow-paragraph {
+  width: 475px;
+}
+
+.container{
+  width: 500px;
+  height: 281px;
+}
+
+.footer-table {
+  width: 500px;
+}
